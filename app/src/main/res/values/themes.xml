@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FuelCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_300</item>
+        <item name="colorPrimaryVariant">@color/green_500</item>
+        <item name="colorOnPrimary">@color/cream</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/brown_100</item>
+        <item name="colorSecondaryVariant">@color/brown_500</item>
+        <item name="colorOnSecondary">@color/cream</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorSecondaryVariant</item>
+    </style>
+
+    <style name="Theme.FuelCalculator" parent="Base.Theme.FuelCalculator" />
+</resources>
